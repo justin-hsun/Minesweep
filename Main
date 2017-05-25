@@ -1,3 +1,6 @@
+#include "minesweeper.h"
+#include <assert.h>
+
 const char UNREVEALED = ' ' ;
 const char REVEALED[9] = "012345678";
 const char FLAG = 'F';
